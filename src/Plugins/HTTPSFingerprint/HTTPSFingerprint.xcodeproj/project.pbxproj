@@ -1,0 +1,272 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F80CA5BD1CE12C3B003E5D8F /* HITDevKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F80CA5BC1CE12C3B003E5D8F /* HITDevKit.framework */; };
+		F80CA5C01CE12CB8003E5D8F /* HITPHTTPSFingerprint.m in Sources */ = {isa = PBXBuildFile; fileRef = F80CA5BF1CE12CB8003E5D8F /* HITPHTTPSFingerprint.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F80CA5A31CE12C21003E5D8F /* HTTPSFingerprint.hitp */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTTPSFingerprint.hitp; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80CA5A61CE12C21003E5D8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F80CA5BC1CE12C3B003E5D8F /* HITDevKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HITDevKit.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/Hello_IT-comwfhdionpwsseezqzjagzeeimo/Build/Products/Debug/HITDevKit.framework"; sourceTree = "<group>"; };
+		F80CA5BE1CE12CB8003E5D8F /* HITPHTTPSFingerprint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HITPHTTPSFingerprint.h; sourceTree = "<group>"; };
+		F80CA5BF1CE12CB8003E5D8F /* HITPHTTPSFingerprint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HITPHTTPSFingerprint.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F80CA5A01CE12C21003E5D8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80CA5BD1CE12C3B003E5D8F /* HITDevKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F80CA59A1CE12C21003E5D8F = {
+			isa = PBXGroup;
+			children = (
+				F80CA5BC1CE12C3B003E5D8F /* HITDevKit.framework */,
+				F80CA5A51CE12C21003E5D8F /* HTTPSFingerprint */,
+				F80CA5A41CE12C21003E5D8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F80CA5A41CE12C21003E5D8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F80CA5A31CE12C21003E5D8F /* HTTPSFingerprint.hitp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F80CA5A51CE12C21003E5D8F /* HTTPSFingerprint */ = {
+			isa = PBXGroup;
+			children = (
+				F80CA5A61CE12C21003E5D8F /* Info.plist */,
+				F80CA5BE1CE12CB8003E5D8F /* HITPHTTPSFingerprint.h */,
+				F80CA5BF1CE12CB8003E5D8F /* HITPHTTPSFingerprint.m */,
+			);
+			path = HTTPSFingerprint;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F80CA5A21CE12C21003E5D8F /* HTTPSFingerprint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F80CA5A91CE12C21003E5D8F /* Build configuration list for PBXNativeTarget "HTTPSFingerprint" */;
+			buildPhases = (
+				F80CA59F1CE12C21003E5D8F /* Sources */,
+				F80CA5A01CE12C21003E5D8F /* Frameworks */,
+				F80CA5A11CE12C21003E5D8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HTTPSFingerprint;
+			productName = HTTPSFingerprint;
+			productReference = F80CA5A31CE12C21003E5D8F /* HTTPSFingerprint.hitp */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F80CA59B1CE12C21003E5D8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Yoann Gini";
+				TargetAttributes = {
+					F80CA5A21CE12C21003E5D8F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = F80CA59E1CE12C21003E5D8F /* Build configuration list for PBXProject "HTTPSFingerprint" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F80CA59A1CE12C21003E5D8F;
+			productRefGroup = F80CA5A41CE12C21003E5D8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F80CA5A21CE12C21003E5D8F /* HTTPSFingerprint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F80CA5A11CE12C21003E5D8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F80CA59F1CE12C21003E5D8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80CA5C01CE12CB8003E5D8F /* HITPHTTPSFingerprint.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F80CA5A71CE12C21003E5D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F80CA5A81CE12C21003E5D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F80CA5AA1CE12C21003E5D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HTTPSFingerprint/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.ygini.hitp.HTTPSFingerprint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = hitp;
+			};
+			name = Debug;
+		};
+		F80CA5AB1CE12C21003E5D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HTTPSFingerprint/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.ygini.hitp.HTTPSFingerprint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = hitp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F80CA59E1CE12C21003E5D8F /* Build configuration list for PBXProject "HTTPSFingerprint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F80CA5A71CE12C21003E5D8F /* Debug */,
+				F80CA5A81CE12C21003E5D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F80CA5A91CE12C21003E5D8F /* Build configuration list for PBXNativeTarget "HTTPSFingerprint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F80CA5AA1CE12C21003E5D8F /* Debug */,
+				F80CA5AB1CE12C21003E5D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F80CA59B1CE12C21003E5D8F /* Project object */;
+}

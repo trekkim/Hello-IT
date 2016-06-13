@@ -61,7 +61,15 @@
                                                                                     @"title": @"Hello IT Documentation",
                                                                                     @"URL": @"https://github.com/ygini/Hello-IT/wiki",
                                                                                     @"imagePath": @"/System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/HelpIcon.icns"
-
+                                                                                    
+                                                                                    }
+                                                                            },
+                                                                          @{@"functionIdentifier": @"public.test.https.fingerprint",
+                                                                            @"settings": @{
+                                                                                    @"title": @"HTTPS Fingerprint Validation",
+                                                                                    @"URL": @"https://github.com/",
+                                                                                    @"type": @"sha1",
+                                                                                    @"fingerprint": @"D7:9F:07:61:10:B3:92:93:E3:49:AC:89:84:5B:03:80:C1:9E:2F:8B"
                                                                                     }
                                                                             },
                                                                           @{@"functionIdentifier": @"public.open.resource",
@@ -74,13 +82,13 @@
                                                                           @{@"functionIdentifier": @"public.quit"}
                                                                           ]
                                                                   }];
-
+        
     }
     
     if ([[NSUserDefaults standardUserDefaults] objectForKey:@"loglevel"]) {
         asl_set_filter(NULL, ASL_FILTER_MASK_UPTO([[NSUserDefaults standardUserDefaults] integerForKey:@"loglevel"]));
     }
-
+    
     
     [[HITPluginsManager sharedInstance] loadPluginsWithCompletionHandler:^(HITPluginsManager *pluginsManager) {
         [self loadMenu];
@@ -94,7 +102,7 @@
                                                                                                             queue:nil
                                                                                                        usingBlock:^(NSNotification * _Nonnull note) {
                                                                                                            [self updateStatusItem];
-                                                                                            }];
+                                                                                                       }];
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
@@ -139,9 +147,9 @@
             imageNameForDark = [imageName stringByAppendingString:@"-dark"];
         }
         
-
+        
         NSString *customStatusBarIconBaseFolder = [NSString stringWithFormat:@"/Library/Application Support/com.github.ygini.hello-it/CustomStatusBarIcon"];
-
+        
         
         NSString *finalPath = [[customStatusBarIconBaseFolder stringByAppendingPathComponent:imageName] stringByAppendingPathExtension:@"png"];
         

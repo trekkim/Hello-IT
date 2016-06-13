@@ -23,6 +23,7 @@
 		E1D068081B51D08E00567172 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1D068061B51D08E00567172 /* MainMenu.xib */; };
 		E1D068141B51D08F00567172 /* Hello_ITTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D068131B51D08F00567172 /* Hello_ITTests.m */; };
 		E1D0681F1B51D4B500567172 /* HITPluginsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D0681E1B51D4B500567172 /* HITPluginsManager.m */; };
+		F80CA5C41CE131BA003E5D8F /* HTTPSFingerprint.hitp in Copy Default Plugins */ = {isa = PBXBuildFile; fileRef = F80CA5B31CE12C22003E5D8F /* HTTPSFingerprint.hitp */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F8340B8C1C96CF9000C820D7 /* statusbar-dark.png in Resources */ = {isa = PBXBuildFile; fileRef = F8340B781C96CF9000C820D7 /* statusbar-dark.png */; };
 		F8340B8D1C96CF9000C820D7 /* statusbar-dark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8340B791C96CF9000C820D7 /* statusbar-dark@2x.png */; };
 		F8340B8E1C96CF9000C820D7 /* statusbar-error-dark.png in Resources */ = {isa = PBXBuildFile; fileRef = F8340B7A1C96CF9000C820D7 /* statusbar-error-dark.png */; };
@@ -123,6 +124,13 @@
 			remoteGlobalIDString = E1D067F91B51D08E00567172;
 			remoteInfo = "Hello IT";
 		};
+		F80CA5B21CE12C22003E5D8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F80CA5AC1CE12C21003E5D8F /* HTTPSFingerprint.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F80CA5A31CE12C21003E5D8F;
+			remoteInfo = HTTPSFingerprint;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -132,6 +140,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				F80CA5C41CE131BA003E5D8F /* HTTPSFingerprint.hitp in Copy Default Plugins */,
 				E14B67DA1B59110D00941A27 /* ScriptedItem.hitp in Copy Default Plugins */,
 				E14B67BB1B57888700941A27 /* OpenApplication.hitp in Copy Default Plugins */,
 				E1AF407B1B52A6030017B4DD /* SubMenu.hitp in Copy Default Plugins */,
@@ -181,6 +190,7 @@
 		E1D068131B51D08F00567172 /* Hello_ITTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hello_ITTests.m; sourceTree = "<group>"; };
 		E1D0681D1B51D4B500567172 /* HITPluginsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HITPluginsManager.h; sourceTree = "<group>"; };
 		E1D0681E1B51D4B500567172 /* HITPluginsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HITPluginsManager.m; sourceTree = "<group>"; };
+		F80CA5AC1CE12C21003E5D8F /* HTTPSFingerprint.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = HTTPSFingerprint.xcodeproj; path = HTTPSFingerprint/HTTPSFingerprint.xcodeproj; sourceTree = "<group>"; };
 		F8340B781C96CF9000C820D7 /* statusbar-dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "statusbar-dark.png"; sourceTree = "<group>"; };
 		F8340B791C96CF9000C820D7 /* statusbar-dark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "statusbar-dark@2x.png"; sourceTree = "<group>"; };
 		F8340B7A1C96CF9000C820D7 /* statusbar-error-dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "statusbar-error-dark.png"; sourceTree = "<group>"; };
@@ -248,6 +258,7 @@
 		E17743301B51E6E600A5B406 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
+				F80CA5AC1CE12C21003E5D8F /* HTTPSFingerprint.xcodeproj */,
 				E17743591B51EA8500A5B406 /* OpenResource.xcodeproj */,
 				E17743751B51F19B00A5B406 /* Separator.xcodeproj */,
 				E17743941B51F2C900A5B406 /* Title.xcodeproj */,
@@ -372,6 +383,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F80CA5AD1CE12C21003E5D8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F80CA5B31CE12C22003E5D8F /* HTTPSFingerprint.hitp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		F86928FA1CA28B8800AB8E4C /* statusbar */ = {
 			isa = PBXGroup;
 			children = (
@@ -473,6 +492,10 @@
 				{
 					ProductGroup = E1B2C8EE1B59351B005A9936 /* Products */;
 					ProjectRef = E1B2C8ED1B59351B005A9936 /* HITDevKit.xcodeproj */;
+				},
+				{
+					ProductGroup = F80CA5AD1CE12C21003E5D8F /* Products */;
+					ProjectRef = F80CA5AC1CE12C21003E5D8F /* HTTPSFingerprint.xcodeproj */;
 				},
 				{
 					ProductGroup = E14B67A81B57856000941A27 /* Products */;
@@ -584,6 +607,13 @@
 			fileType = wrapper.cfbundle;
 			path = HITDevKitTests.xctest;
 			remoteRef = E1B2C8F41B59351C005A9936 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F80CA5B31CE12C22003E5D8F /* HTTPSFingerprint.hitp */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = HTTPSFingerprint.hitp;
+			remoteRef = F80CA5B21CE12C22003E5D8F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
